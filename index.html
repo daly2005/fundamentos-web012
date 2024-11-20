@@ -1,48 +1,62 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi pagina web 3</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<p><strong>INICIO</strong></p>
-<ul>
-<li>NOSOTROS</li>
-<li>SOPORTE</li>
-<li>SERVICIOS</li>
-<li>CONTACTANOS</li>
-</ul>
-<hr>
-<P><strong>EMPRESA XYX</strong></P>
-<P>Estamos al servicio de la comunidad para brindar tecnologia y modernización</P>
-<hr>
-<img src="c:\Users\usuario\Documents\dalyy\fundamentos-web012\img\computer.png" alt="PC"><br>
-<P><strong>SOPORTE</strong></P>
-<P>Brindamos soporte personalizado a todo tipo de computadoras</P>
-<hr>
-<P><strong>SERVICIOS</strong></P>
-<img src="c:\Users\usuario\Documents\dalyy\fundamentos-web012\img\spotify.png" alt="Spotify"><a>ㅤㅤㅤㅤ</a>
-<img src="c:\Users\usuario\Documents\dalyy\fundamentos-web012\img\netflix.png" alt="Netflix"><a>ㅤㅤㅤㅤ</a>
-<img src="c:\Users\usuario\Documents\dalyy\fundamentos-web012\img\Android.png" alt="Android"><br>
-<br>
-<img src="c:\Users\usuario\Documents\dalyy\fundamentos-web012\img\apple.png" alt="Apple"><a>ㅤㅤㅤㅤ</a>
-<img src="c:\Users\usuario\Documents\dalyy\fundamentos-web012\img\amazon.png" alt="Amazon"><a>ㅤㅤㅤㅤ</a>
-<img src="c:\Users\usuario\Documents\dalyy\fundamentos-web012\img\windows.png" alt="Windows"><br>
-<hr>
-<P><strong>CONTACTANOS</strong></P>
-<label for="name">Nombre:</label><br>   
-<input type="text" id="nombre" name="nombre"<br>
-<br>
-<br><label for="email">Email:</label><br>   
-<input type="text" id="email" name="email"<br>
-<br>
-<br><label for="messege">Mensaje:</label><br>   
-<input type="text" id="messege" name="messege"<br>
-<br>
-<br>
-<input type="checkbox" id="terminos_y_condiciones" name="terminos_y_condiciones" value="valor3" checked>
-<a>Acepto los </a><a href="https://web.whatsapp.com/">terminos y condiciones</a><br>
-<br><button>ENVIAR</button>        
+<header>
+    <h1 class="Title"><strong>INICIO</strong></h1>
+    <ul>
+        <li>NOSOTROS</li>
+        <li>SOPORTE</li>
+        <li>SERVICIOS</li>
+        <li>CONTACTANOS</li>
+    </ul>
+</header><hr>
+
+    <main>
+        <section id="one_sec">
+        <h3><strong>EMPRESA XYX</strong></h3>
+        <p>Estamos al servicio de la comunidad para brindar tecnologia y modernización</p>
+        </section>
+        <hr>
+        <section id="one_sec">
+        <h3><strong>SOPORTE</strong></h3>
+        <img src="img/computer.png" alt="PC">
+        <P>Brindamos soporte personalizado a todo tipo de computadoras</P>
+        </section>
+        <hr>
+        <section id="one_sec">
+        <h3><strong>SERVICIOS</strong></h3>
+        <img src="img/spotify.png" alt="Spotify" class="animated_image">
+        <img src="img/netflix.png" alt="Netflix" class="animated_image">
+        <img src="img/android.png" alt="Android" class="animated_image">
+        <img src="img/apple_itunes.png" alt="Apple_itunes" class="animated_image">
+        <img src="img/amazon.png" alt="Amazon" class="animated_image">
+        <img src="img/windows.png" alt="Windows" class="animated_image">
+        </section>
+    </main><hr>
+
+    <footer>
+        <section id="first_footer">
+        <h3 class="right_subtitle"><strong>CONTACTANOS</strong></h3>
+        <p><label for="name">Nombre:</label><br>  
+        <p><input type="text" id="nombre" name="nombre"></p>
+        <p><label for="email">Email:</label></p>   
+        <p><input type="text" id="email" name="email"></p>
+        <p><label for="messege">Mensaje:</label></p>   
+        <p><input type="text" id="messege" name="messege"></p>
+        </section>
+
+        <section id="second_footer">
+        <h5><input type="checkbox" name="terminos_y_condiciones" value="valor3" checked><a>Acepto los </a><a href="https://web.whatsapp.com/" class="link">terminos y condiciones</a></h5>
+        <button>ENVIAR</button>  
+        </section>
+    </footer>      
 </body>
 </html>

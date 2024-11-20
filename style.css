@@ -1,0 +1,110 @@
+body{
+    background-image: url('img/fondo.jfif');
+    height: 200;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1{
+    background-image: url('img/header.jfif');
+    border-top-left-radius: 10px;  
+    border-top-right-radius: 20px;  
+    border-bottom-right-radius: 30px; 
+    border-bottom-left-radius: 40px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    height: 60px;
+    display: flex;
+    justify-content: center; 
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    background-image: url('img/header.jfif');
+    background-position-x: center;
+    margin: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-top-left-radius: 20px;  
+    border-top-right-radius: 20px;  
+    border-bottom-right-radius: 20px; 
+    border-bottom-left-radius: 20px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    padding: 15px;
+    margin: 37px;
+    height: 130px;
+}
+
+.animated_image{
+    height: 100px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+.animated_image:hover {
+    filter: grayscale(0%);
+    transform: scale(1.4); 
+}
+
+#one_sec{
+    background-color: rgb(41, 16, 65, 0.6);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#first_footer{
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(41, 16, 65, 0.6);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#second_footer{
+    margin-left: 23px;
+}
+
+button{
+    background-image: url('img/button.jfif');
+    color: white;
+    transition: box-shadow 0.3s ease;
+}
+button:hover {
+    box-shadow: 0 0 25px 7px #7f00d3;
+}
+
+.link{
+    color: rgb(67, 233, 255);
+}
+
+p{
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+hr{
+    border-color: rgb(29, 7, 63);
+}
