@@ -64,18 +64,21 @@
     <footer>
         <section id="first_footer">
         <h3 class="subtitle"><strong>CONTACTANOS</strong></h3>
+        <form onsubmit="event.preventDefault(); showAlert();">
         <p class="text"><label for="name">Nombre:</label><br>  
         <p class="text"><input type="text" id="nombre" name="nombre"></p>
         <p class="text"><label for="email">Email:</label></p>   
         <p class="text"><input type="text" id="email" name="email"></p>
         <p class="text"><label for="messege">Mensaje:</label></p>   
         <p class="text"><input type="text" id="messege" name="messege"></p>
+        
         </section>
-
         <section id="second_footer">
-        <h5><input type="checkbox" name="terminos_y_condiciones" value="valor3" checked><a>Acepto los </a><a href="https://web.whatsapp.com/" class="link">terminos y condiciones</a></h5>
+        <h5><input type="checkbox" id="terminos" name="terminos_y_condiciones" value="valor3" checked><a>Acepto los </a><a href="https://web.whatsapp.com/" class="link">terminos y condiciones</a></h5>
         <button class="send_button">ENVIAR</button>  
         </section>
-    </footer>      
+    </form>
+    </footer>   
+    <script src="script3.js"></script>   
 </body>
 </html>
