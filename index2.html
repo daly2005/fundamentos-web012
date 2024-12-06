@@ -9,17 +9,31 @@
 </head>
 
 <body>
-<header>
-    <h1 class="title"><strong>INICIO</strong></h1>
-    <nav>
-        <ul>
-            <li>NOSOTROS</li>
-            <li>SOPORTE</li>
-            <li>SERVICIOS</li>
-            <li>CONTACTANOS</li>
-        </ul>
-    </nav>
-</header><hr>
+    <header>
+        <nav class="navbar">
+            <div class="logo">🌟 MiLogo</div>
+            <ul class="nav-links">
+                <li><a href="#" class="icon">🏠 Inicio</a></li>
+                <li class="dropdown">
+                    <a href="#" class="icon">🛠 Servicios</a>
+                    <ul class="submenu">
+                        <li><a href="#"><span class="emoji">🔧</span> Desarrollo</a></li>
+                        <li><a href="#"><span class="emoji">📈</span> Análisis</a></li>
+                        <li><a href="#"><span class="emoji">📋</span> Consultoría</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="icon">📂 Proyectos</a>
+                    <ul class="submenu">
+                        <li><a href="#"><span class="emoji">⚙</span> ProyectoㅤA</a></li>
+                        <li><a href="#"><span class="emoji">🖥</span> ProyectoㅤB</a></li>
+                        <li><a href="#"><span class="emoji">🔍</span> ProyectoㅤC</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="icon">📞 Contacto</a></li>
+            </ul>
+        </nav>
+    </header><hr>
 
     <main id="main_content">
         <section id="one_sec">
@@ -35,30 +49,33 @@
         <hr>
         <section id="one_sec">
         <h3  class="subtitle"><strong>SERVICIOS</strong></h3>
-        <img src="img/spotify.png" alt="Spotify" class="animated_image">
+        <img src="img/spotify-logo-png-7053.png" alt="Spotify" class="animated_image">
         <img src="img/netflix.png" alt="Netflix" class="animated_image">
-        <img src="img/android.png" alt="Android" class="animated_image">
-        <img src="img/apple_itunes.png" alt="Apple_itunes" class="animated_image">
-        <img src="img/amazon.png" alt="Amazon" class="animated_image">
-        <img src="img/windows.png" alt="Windows" class="animated_image">
+        <img src="img/android-logo-12377.png" alt="Android" class="animated_image">
+        <img src="img/png-apple-logo-9718.png" alt="Apple" class="animated_image">
+        <img src="img/github-mark-white.png" alt="Git_Hube" class="animated_image">
+        <img src="img/logo-windows-13475.png" alt="Windows" class="animated_image">
         </section>
     </main><hr>
 
     <footer>
         <section id="first_footer">
         <h3 class="subtitle"><strong>CONTACTANOS</strong></h3>
+        <form onsubmit="event.preventDefault(); showAlert();">
         <p class="text"><label for="name">Nombre:</label><br>  
-        <p class="text"><input type="text" id="nombre" name="nombre"></p>
+        <p class="text"><input type="text" id="namee" name="namee"></p>
         <p class="text"><label for="email">Email:</label></p>   
-        <p class="text"><input type="text" id="email" name="email"></p>
+        <p class="text"><input type="text" id="emaill" name="emaill"></p>
         <p class="text"><label for="messege">Mensaje:</label></p>   
-        <p class="text"><input type="text" id="messege" name="messege"></p>
+        <p class="text"><input type="text" id="messegee" name="messegee"></p>
         </section>
 
         <section id="second_footer">
-        <h5><input type="checkbox" name="terminos_y_condiciones" value="valor3" checked><a>Acepto los </a><a href="https://web.whatsapp.com/" class="link">terminos y condiciones</a></h5>
-        <button class="send_button">ENVIAR</button>  
+        <h5><input type="checkbox" id="terminos" name="terminos_y_condiciones" value="valor3" checked><a>Acepto los </a><a href="https://web.whatsapp.com/" class="link">terminos y condiciones</a></h5>
+        <button id="send_button">ENVIAR</button>  
         </section>
-    </footer>      
+    </form>
+    </footer> 
+    <script src="script2.js"></script>     
 </body>
 </html>
